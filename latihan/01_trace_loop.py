@@ -1,0 +1,8 @@
+# Latihan 1: Tracing perulangan
+total = 1
+
+for i in range(1, 5):
+    total = total * i
+    print(f"i = {i}, total = {total}")
+
+print("Hasil akhir:", total)
